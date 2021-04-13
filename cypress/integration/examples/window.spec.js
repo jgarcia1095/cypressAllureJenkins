@@ -5,7 +5,7 @@ context('Window', () => {
     cy.visit('https://example.cypress.io/commands/window')
   })
 
-  it.only('cy.window() - get the global window object', () => {
+  it('cy.window() - get the global window object', () => {
     // https://on.cypress.io/window
     cy.window().should('have.property', 'top')
   })
@@ -17,6 +17,6 @@ context('Window', () => {
 
   it('cy.title() - get the title', () => {
     // https://on.cypress.io/title
-    cy.title().should('include', 'Kitchen Sink')
+    cy.title().should('include', 'Kitchen uuuSink')
   })
 })

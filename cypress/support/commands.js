@@ -19,13 +19,6 @@
 //
 // -- This is a dual command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
- Cypress.Commands.add('LogResponse', (response) => {
-    // cy.log(JSON.stringify(response.body))
-    // cy.log(JSON.stringify(response.duration))
-    // cy.log(JSON.stringify(response.headers))
-    // cy.log(JSON.stringify(response.requestHeaders))
-    // cy.log(JSON.stringify(response.status))
-    cy.log(JSON.stringify(response.allRequestResponses))  })
 //
 //
 // -- This will overwrite an existing command --
