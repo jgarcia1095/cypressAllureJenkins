@@ -1,4 +1,6 @@
 {
   "chromeWebSecurity":false,
-  "baseUrl":"https://office.live.com/start/Outlook.aspx?ui=es-ES"
+  "baseUrl":"https://office.live.com/start/Outlook.aspx?ui=es-ES",
+  "testFiles": "**/*.feature"
+
 }
