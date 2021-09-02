@@ -23,8 +23,6 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 }
 
-
-
 const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 
 module.exports = (on, config) => {
